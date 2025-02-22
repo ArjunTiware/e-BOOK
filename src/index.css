@@ -1,0 +1,45 @@
+/* Google Font CDN Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    text-align: justify;
+  }
+
+.navbar {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    padding: 10px 0;
+    height: 50px;
+}
+
+.navbar li,
+.navbar li p {
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+    transition: .4s;
+}
+
+.navbar li:hover {
+    color: #000;
+}
+
+#hero_Section {
+    background-image: url(./assets/bgBanner.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
