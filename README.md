@@ -1,6 +1,6 @@
-# Book Heaven
+# e-BOOK
 
-Welcome to **Book Heaven **! This project is built using [Vite](https://vitejs.dev/), a fast and modern build tool for web development. This project is a part of my learning journey or a real-world application.
+Welcome to **e-BOOK **! This project is built using [Vite](https://vitejs.dev/), a fast and modern build tool for web development. This project is a part of my learning journey or a real-world application.
 
 ## Features
 
@@ -14,7 +14,7 @@ Welcome to **Book Heaven **! This project is built using [Vite](https://vitejs.d
 - **Vite**: A next-generation, fast bundler for web projects.
 - **React** (if using React): A JavaScript library for building user interfaces.
 - **CSS** (or other styling tools like SASS, Tailwind CSS, etc.)
-- **Other libraries** (if any, such as Axios, React Router, Redux, etc.)
+- **Other libraries** (such as React Router, Redux, etc.)
 
 ## Prerequisites
 

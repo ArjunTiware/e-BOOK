@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../Card/Card";
 import { useSelector } from "react-redux";
 import Category from "./Category";
+import heroImage from "../../assets/hero_images.png";
 
 export const Home = () => {
   const PopularBooks = useSelector((state) => state.popularBooks);
@@ -14,7 +15,7 @@ export const Home = () => {
                 <div className="w-1/2">
                     <h2 className="md:text-5xl text-4xl text-left font-semibold font-Poppins mb-2">The Ultimate Library Management Tool</h2>
                 </div>
-                <img src="../../assets/hero_images.png" alt="hero_image" className='w-96 h-auto' />
+                <img src={heroImage} alt="hero_image" className='w-96 h-auto' />
             </div>
         <Category />
         {PopularBooks.map((book) => {
