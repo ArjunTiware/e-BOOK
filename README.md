@@ -29,7 +29,7 @@ Follow these steps to get a local copy of the project running on your machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/DevPro6269/Book-Haven
+   git clone https://github.com/DevPro6269/e-BOOK
 
 2. **Navigate into the project directory:**
    ```bash
